@@ -5,8 +5,10 @@ export const CONTACT = {
   phones:   ['08067767560', '09150643756', '07017583880'],
   email:    'techfluxhubng@gmail.com',
   address:  '178 Dr. Cletus Ibeto Road, Behind Water Works Amuko, Uruagu Nnewi, Anambra State.',
-  facebook: 'Techfluxhub',
-  twitter:  '@Techfluxhub',
+  facebook: 'profile.php?id=61586784773770',
+  x:  'Techfluxhub',
+  instagram: 'Techfluxhubng',
+  whatsapp: +2348122335934,
   maps:     'https://maps.google.com/?q=Nnewi+Anambra+State+Nigeria',
 }
 
