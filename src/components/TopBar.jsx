@@ -1,10 +1,11 @@
 import { CONTACT } from '../data'
-import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FiFacebook } from "react-icons/fi";
 
 const socials = [
-    { label: 'f', title: 'Facebook', href: `https://facebook.com/${CONTACT.facebook}` },
+    { label: FiFacebook, title: 'Facebook', href: `https://facebook.com/${CONTACT.facebook}` },
     { label: '𝕏', title: 'X', href: `https://x.com/${CONTACT.x}` },
-    { label: '◎', title: 'Instagram', href: `https://instagram.com/${CONTACT.instagram}` },
+    { label: FaInstagram, title: 'Instagram', href: `https://instagram.com/${CONTACT.instagram}` },
     { label: FaWhatsapp, title: 'Whatsapp', href: `https://wa.me/${CONTACT.whatsapp}` },
 
 ]
@@ -22,7 +23,7 @@ export default function TopBar() {
                     📍 Nnewi, Anambra State
                 </span>
                 <a href={`mailto:${CONTACT.email}`}
-                    className="flex items-center gap-2 text-xs text-white/70">
+                    className="flex items-center gap-2 text-xs text-white/70 hover:text-white transition-colors">
                     📧 {CONTACT.email}
                 </a>
             </div>
