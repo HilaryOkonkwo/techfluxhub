@@ -110,16 +110,16 @@ export const WHY_FEATURES = [
 ]
 
 export const OUTCOMES = [
-    { label: 'Course Completion Rate', pct: 94},
+    { label: 'Course Completion Rate',     pct: 94},
     { label: 'Students Employed After Training', pct: 88},
     { label: 'Student Satisfaction Score', pct: 97},
     { label: 'Students Who Refer Friends', pct: 91}
 ]
 
 export const STEPS = [
-  { num: '01', title: 'Register & Enroll', desc: 'Call us or visit Techflux Hub to register for your chosen course. Quick and easy.' },
-  { num: '02', title: 'Attend Classes',    desc: 'Join hands-on classes led by expert instructors. Morning, Evening and Weekend slots.' },
-  { num: '03', title: 'Build Projects',    desc: 'Apply everything you learn by building real projects. Graduate with a solid portfolio.' },
+  { num: '01', title: 'Register & Enroll',       desc: 'Call us or visit Techflux Hub to register for your chosen course. Quick and easy.' },
+  { num: '02', title: 'Attend Classes',          desc: 'Join hands-on classes led by expert instructors. Morning, Evening and Weekend slots.' },
+  { num: '03', title: 'Build Projects',          desc: 'Apply everything you learn by building real projects. Graduate with a solid portfolio.' },
   { num: '04', title: 'Get Certified and Hired', desc: 'Receive your certificate and get connected to job opportunities through our network.'}
 ] 
 

@@ -2,3 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-navy bg-white overflow-x-hidden;
+  }
+
+  h1, h2, h3, h4, h5 {
+    @apply font-heading;
+  }
+}
+
+
+@layer components {
+  /* Buttons */
+  .btn-primary {
+    @apply bg-blue text-white font-bold px-6 py-3 rounded-lg
+           hover:bg-navy-mid transition-all duration-200
+           shadow-md hover:shadow-lg hover:-translate-y-0.5
+           inline-flex items-center gap-2;
+  }
+
+  .btn-outline {
+    @apply border-2 border-blue text-blue font-semibold px-6 py-3 rounded-lg
+           hover:bg-blue-pale transition-all duration-200
+           inline-flex items-center gap-2;
+  }
+
+  .btn-white {
+    @apply bg-white text-blue font-bold px-6 py-3 rounded-lg
+           hover:-translate-y-0.5 transition-all duration-200
+           shadow-lg inline-flex items-center gap-2;
+  }
+
+  .btn-ghost-white {
+    @apply border-2 border-white/40 text-white font-semibold px-6 py-3 rounded-lg
+           hover:border-white/80 hover:bg-white/10 transition-all duration-200
+           inline-flex items-center gap-2;
+  }
+}
