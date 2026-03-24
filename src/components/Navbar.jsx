@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { NAV_LINKS, CONTACT } from '../data'
-
+import TF_Logo from "../assets/TF_Logo.png"
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -23,12 +23,12 @@ export default function Navbar() {
 
                 {/* Techflux Hub Logo */}
                 <a href="#home" className='flex items-center gap-3 no-underline'>
-                    <div className='w-[50px] h-[50px] rounded-xl
-    bg-gradient-to-br from-blue to-blue-light
-    flex items-center justify-center
-    text-white font-heading font-black text-sm
-    shadow-mf'>
-                        TF
+                    <div className='w-[100px] h-[70px] rounded-xl flex items-center justify-center shadow-mf'>
+                        <img 
+            src={TF_Logo}
+            alt="TechFlux Hub Logo"
+            className="w-full h-full object-contain"
+        />
                     </div>
                     <div className="leading-tight">
                         <span className="block font-heading text-[1.15rem] font-extrabold text-blue tracking-tight">

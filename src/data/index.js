@@ -27,7 +27,7 @@ export const COURSES  =  [
     name:  'Graphics Design',
     desc:  'Create stunning visuals for brands, social media, print, and digital media using industry-standard tools.',
     tags:  ['Photoshop', 'Illustrator', 'Canva', 'CorelDraw'],
-    color: '#7b1fa2',
+    color: '#1565c0',
   },
   {
     id:    3,
@@ -43,7 +43,7 @@ export const COURSES  =  [
     name:  'Robotics & Automation',
     desc:  'Design and build autonomous systems. Program robotic arms and automated solutions for real-world tasks.',
     tags:  ['Arduino', 'Raspberry Pi', 'C/C++', 'Python'],
-    color: '#2e7d32',
+    color: '#1565c0',
   },
   {
     id:    5,
@@ -51,7 +51,7 @@ export const COURSES  =  [
     name:  'Mobile App Development',
     desc:  'Build Android and iOS apps that people actually use. From idea to app store — learn the full process.',
     tags:  ['Flutter', 'React Native', 'Dart', 'Android'],
-    color: '#e65100',
+    color: '#1565c0',
   },
   {
     id:    6,
@@ -59,7 +59,7 @@ export const COURSES  =  [
     name:  'Social Media / Content Creation',
     desc:  'Learn to grow brands online through strategic content creation, management, and digital marketing.',
     tags:  ['Content Strategy', 'Video Editing', 'Copywriting'],
-    color: '#c62828',
+    color: '#1565c0',
   },
   {
     id:    7,
@@ -67,7 +67,7 @@ export const COURSES  =  [
     name:  'Solar Energy Solutions',
     desc:  'Understand solar panel installation, inverter setup, and renewable energy systems. High-demand skill in Nigeria.',
     tags:  ['Solar Panels', 'Inverters', 'Wiring', 'Maintenance'],
-    color: '#f9a825',
+    color: '#1565c0',
   },
   {
     id:    8,
@@ -75,7 +75,7 @@ export const COURSES  =  [
     name:  'Basic Computer Skills',
     desc:  'Perfect for beginners. Learn to use a computer confidently — MS Office, internet, email, and more.',
     tags:  ['MS Word', 'Excel', 'PowerPoint', 'Internet'],
-    color: '#4e342e',
+    color: '#1565c0',
   },
   {
     id:    9,
@@ -83,7 +83,7 @@ export const COURSES  =  [
     name:  'Electrical Wiring & Design',
     desc:  'Master residential and commercial electrical wiring, safety standards, circuit design, and installations.',
     tags:  ['Circuit Design', 'Wiring', 'Safety', 'Installation'],
-    color: '#37474f',
+    color: '#1565c0',
   },
   {
     id:    10,
@@ -96,9 +96,9 @@ export const COURSES  =  [
 ]
 
 export const STATS = [
-    { num: '500+', label: 'Students Trained'},
+    { num: '100+', label: 'Students Trained'},
     { num: '10+', label: 'Courses Offered' },
-    {num: '3', label: 'Expert Instructors'},
+    {num: '10+', label: 'Expert Instructors'},
     { num: '100%', label: 'Hands-on Learning'},
 ]
 
@@ -203,6 +203,6 @@ export const NAV_LINKS = [
   ]},
   { label: 'Events',    href:   '#events'},
   { label: 'Community', href: '#community'},
-  { label: 'About Us',  href:  '#about'},
+  { label: 'About',  href:  '#about'},
   { label: 'Contact',   href: '#contact'},
 ]
