@@ -63,7 +63,7 @@ export default function Navbar() {
                                border border-blue-sky rounded-xl shadow-xl
                                p-2 min-w-[220px] z-50 flex flex-col gap-1">
                                     {link.dropdown.map((item) => (
-                                        <a key={item.replace(/[^a-zA-Z0-9]/g, '')} href='#courses'
+                                        <a key={item} href='#courses'
                                             className='block px-4 py-2 text-[0.84rem] text-blue-mid
                                              rounded-lg hover:bg-blue-pale hover:text-blue
                                              transition-all durration-150 no-underline'
