@@ -62,8 +62,8 @@ export default function Navbar() {
                                 <div className="absolute top-[calc(100%+8px)] left-0 bg-white
                                border border-blue-sky rounded-xl shadow-xl
                                p-2 min-w-[220px] z-50 flex flex-col gap-1">
-                                    {link.dropdown.map((item) => (
-                                        <a key={item} href='#courses'
+                                    {link.dropdown.map((item,index) => (
+                                        <a key={index} href='#courses'
                                             className='block px-4 py-2 text-[0.84rem] text-blue-mid
                                              rounded-lg hover:bg-blue-pale hover:text-blue
                                              transition-all durration-150 no-underline'
